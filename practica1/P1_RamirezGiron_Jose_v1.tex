@@ -1,0 +1,75 @@
+\documentclass[11pt, a4paper]{article} % Declaramos que vamos a trabajar con un documento de tipo articulo
+\usepackage[utf8]{inputenc} % Para que latex reconozca caracteres especiales
+\usepackage[T1]{fontenc} % Mejora la forma en la que aparecen caracteres acentuados
+\usepackage[spanish]{babel} % Carga las característica de la lengua española
+\usepackage{graphicx} % Para incluir imágenes
+\usepackage[colorlinks=true, linkcolor=black]{hyperref}
+
+\title{Práctica 1 - Extracción de Requisitos y Casos de Uso: Campus Plus}
+
+\author{Jose Ramírez Girón}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Introducción}
+	En este caso nos encontramos con una escuela de clases de apoyo para la universidad llamada Campus Plus.
+	En esta nos dicen el director, Antonio Ramírez, que tienen muchos problemas con diferentes gestiones como
+	pueden ser:
+	\begin{enumerate}
+		\item La gestión del tablón de anuncios ya sea para la publicación de contenido, como la visualización de este.
+		\item La gestión del horarios pues hay conflicto de este con versiones previas.
+		\item Un servicio de gestión de archivos pues suele haber conflictos con las versiones y con como los usuarios encuentran estos archivos.
+		\item Gestión de perfiles de usuario, ya sea modificación, creación, o el borrado de estos.
+		\item Gestión de pagos, comprobantes, facturas, y pago fraccionado.
+		\item Creación de copias de seguridad.
+	\end{enumerate}
+
+	Todos estos servicios han de incluirse y unificarse de forma que todos los diferentes tipos de usuario puedan
+	llegar a usar la aplicación sin ningún tipo de problema. Es decir que todos los tipos de usuario han de convivir
+	dentro del sistema sin problemas. \newline
+	Ademas hay que hacer que el sistema se comunique con una pasarela de pago, para la gestión de estos, ademas de poder
+	permitir un pago fraccionado. De esta forma los estudiantes podrán pagar de forma mas organizada y controlada.\newline
+	También se ha de añadir que se busca mas seguridad y control sobre los archivos "importantes", es decir: Copias de seguridad
+	sobre perfiles de alumnos, datos criticos (y su correspondiente acceso). Se buscan servicios como las pasarelas de pago y
+	procesos de autentificación.
+
+\section{Actores}
+	Hemos considerado que para representar los diferentes tipos de usuario que tendrá nuestro sistema trabajaremos ocn los
+	siguientes actores:
+	\begin{itemize}
+		\item \textit{Estudiantes:} \newline Consideramos que los estudiantes han de ser
+		unos actores pues han de interactuar con el sistema de diferentes formas como pueden ser
+		acceder al tablón de anuncios, comprobar el horario de las clases, gestionar sus pagos (al pagar reciben su factura),
+		poder escribir y leer mensajes en el servicio de mensajería, y por ultimo el como pueden acceder a los materiales
+		de cada asignatura.
+		\item \textit{Profesor:} \newline Los profesores por hechos similares al de los estudiantes, revisar el horario, mensajería
+		(recepción y envió de mensajes), administración del materia de la asignatura impartida por cada uno,
+		publicar en el tablón de anuncios, etc... . Añadir también una forma de comprobar la asistencia de los alumnos.
+		\item \textit{Servicio técnico:} \newline El servicio técnico ha de poder generar copias de seguridad de forma inmediata,
+		gestionar los diferentes permisos y accesos, ¿gestión de flujo de usuarios?, gestión de usuarios y perfiles.
+		\item \textit{Secretaria Administrativa:} \newline La secretaria interactuaría con el sistema en puntos como la gestión de usuarios,
+		creación de perfiles, modificación de perfiles, gestión de pagos, gestión del tablón de anuncios y horarios
+		\item \textit{Director Académico:} \newline Y por ultimo consideramos que el director debe tener la posibilidad de acceder a datos
+		de usuarios, modificación del tablo de anuncio, publicación de horarios,
+	\end{itemize}
+
+\section{Clasificación de requisitos}
+\subsection{Requisitos funcionales}
+\subsection{Requisitos no funcionales}
+\section{Diagramas de casos de uso}
+\section{Casos de uso criticos}
+
+\section{Descripciones de casos de uso}
+
+\end{document}
+
