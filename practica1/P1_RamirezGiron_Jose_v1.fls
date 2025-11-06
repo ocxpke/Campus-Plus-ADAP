@@ -1,7 +1,7 @@
-PWD /home/ocxpke/universidad/curso25-26/ADAplicaciones/trabajoIndividualAdap
+PWD /home/ocxpke/universidad/curso25-26/ADAplicaciones/trabajoIndividualAdap/practica1
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/ocxpke/universidad/curso25-26/ADAplicaciones/trabajoIndividualAdap/P1_RamirezGiron_Jose_v1.tex
+INPUT /home/ocxpke/universidad/curso25-26/ADAplicaciones/trabajoIndividualAdap/practica1/P1_RamirezGiron_Jose_v1.tex
 OUTPUT P1_RamirezGiron_Jose_v1.log
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
@@ -96,6 +96,10 @@ INPUT /usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./P1_RamirezGiron_Jose_v1.aux

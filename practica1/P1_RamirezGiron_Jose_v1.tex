@@ -4,6 +4,7 @@
 \usepackage[spanish]{babel} % Carga las característica de la lengua española
 \usepackage{graphicx} % Para incluir imágenes
 \usepackage[colorlinks=true, linkcolor=black]{hyperref}
+\usepackage[hmargin=3cm]{geometry} % Para el margen horizontal (espacio en blanco que hay entre bordes y texto)
 
 \title{Práctica 1 - Extracción de Requisitos y Casos de Uso: Campus Plus}
 
@@ -67,7 +68,93 @@
 	\end{itemize}
 
 \section{Clasificación de requisitos}
+	Vamos a enumerar y describir los requisitos funcionales y no funcionales que tendra el sistema que diseñaremos.
+	Con los \textbf{requisitos funcionales} podremos describir la el comportamiento que tendra nuestro sistema ante
+	ciertos eventos para que se satisfagan las necesidades del usuario. Mientras que con los
+	\textbf{requisitos no funcionales} describir características "pasivas" de nuestro sistema, como pueden ser: el
+	tiempo de respuesta, compatibilidad movil, web responsive, etc...
 \subsection{Requisitos funcionales}
+	\begin{enumerate}
+
+		\item \textbf{RF-01: Inicio de sesion usuario.}
+			\begin{itemize}
+				\item \textit{Como: } Estudiante.
+				\item \textit{Quiero: } Iniciar sesion con mis credenciales personales.
+				\item \textit{Para: } Poder acceder a mi temario, asignaturas, y servicio de mensajería personal.
+			\end{itemize}
+
+		\item \textbf{RF-02: Ver tablon de anuncio.}
+			\begin{itemize}
+				\item \textit{Como: }Estudiante, profesores, servicio IT, secretaria y director academico.
+				\item \textit{Quiero: } Poder ver que mensajes hay publicados en el tablon de anuncios.
+				\item \textit{Para: } Poder estar al dia de las ultimas notificaciones, y eventos.
+			\end{itemize}
+
+		\item \textbf{RF-03: Ver horario de clases.}
+			\begin{itemize}
+				\item \textit{Como: }Estudiante, profesores, secretaria y director academico.
+				\item \textit{Quiero: } Poder ver el horario unificado de todas las clases.
+				\item \textit{Para: } Para saber donde tengo que ir y poder estar bine organizado.
+			\end{itemize}
+
+		\item \textbf{RF-04: Modificar horario.}
+			\begin{itemize}
+				\item \textit{Como: } Secretaria y director academico
+				\item \textit{Quiero: } Poder actualizar el horario academico ya publicado.
+				\item \textit{Para: } Que no haya confusion entre alumnos y profesores sobre a que horas y aulas son las clases.
+			\end{itemize}
+
+		\item \textbf{RF-05: Publicar anuncio.}
+			\begin{itemize}
+				\item \textit{Como: } Profesores, servicio IT, secretaria y director academico.
+				\item \textit{Quiero: } Poder publicar un nuevo anuncio relacionado con algun nuevo evento, actualizacion de clases, etc...
+				\item \textit{Para: } Que los alumnos, profesores o publico objetivo del anuncio pueda estar al tanto.
+			\end{itemize}
+
+		\item \textbf{RF-06: Inscribir alumno.}
+			\begin{itemize}
+				\item \textit{Como: }Secretaria.
+				\item \textit{Quiero: } Poder registrar a un nuevo en el alumno.
+				\item \textit{Para: } Para que el nuevo alumno pueda tener sus credenciales de acceso, y que nosotros podamos tener la informacion necesaria del alumno.
+			\end{itemize}
+
+		\item \textbf{RF-07: Ver los mensajes recibidos.}
+			\begin{itemize}
+				\item \textit{Como: }Estudiante, profesores, servicio IT, secretaria y director academico.
+				\item \textit{Quiero: } Poder ver que mensajes he recibido  de forma personal, o grupal.
+				\item \textit{Para: } Poder ver los mensajes donde soy de forma directa un receptor de este.
+			\end{itemize}
+
+		\item \textbf{RF-08: Enviar un nuevo mensaje.}
+			\begin{itemize}
+				\item \textit{Como: }Estudiante, profesores, servicio IT, secretaria y director academico.
+				\item \textit{Quiero: } Poder enviar un nuevo mensaje a algun destinatario paraticular, o un grupo de destinatarios.
+				\item \textit{Para: } Poder mantener una conversacion en particular o actualizar cierto tema a un particular/grupo.
+			\end{itemize}
+
+		\item \textbf{RF-09: Ver los mensajes recibidos.}
+			\begin{itemize}
+				\item \textit{Como: }Estudiante, profesores, servicio IT, secretaria y director academico.
+				\item \textit{Quiero: } Poder ver que mensajes he recibido  de forma personal, o grupal.
+				\item \textit{Para: } Poder ver los mensajes donde soy de forma directa un receptor de este.
+			\end{itemize}
+
+		\item \textbf{RF-10: Modificar la informacion de un alumno.}
+			\begin{itemize}
+				\item \textit{Como: }Secretaria.
+				\item \textit{Quiero: } Poder modificar la informacion de un perfil de tipo estudiante.
+				\item \textit{Para: } Para que el alumno tenga su informacion personal actualizada.
+			\end{itemize}
+
+		\item \textbf{RF-11: Eliminar un alumno.}
+			\begin{itemize}
+				\item \textit{Como: }Secretaria.
+				\item \textit{Quiero: } Eliminar el perfil de un alumno de la base de datos.
+				\item \textit{Para: } Eliminar un informacion no necesaria de la base de datos.
+			\end{itemize}
+
+
+	\end{enumerate}
 \subsection{Requisitos no funcionales}
 \section{Diagramas de casos de uso}
 \section{Casos de uso criticos}

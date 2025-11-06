@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1760639379.05441 "/home/ocxpke/universidad/curso25-26/ADAplicaciones/trabajoIndividualAdap/P1_RamirezGiron_Jose_v1.tex" "P1_RamirezGiron_Jose_v1.pdf" "P1_RamirezGiron_Jose_v1" 1760639379.57193 0
-  "/home/ocxpke/universidad/curso25-26/ADAplicaciones/trabajoIndividualAdap/P1_RamirezGiron_Jose_v1.tex" 1760639378.82535 4196 7a649cc5671b040e079b1ae0dbeb9814 ""
+["pdflatex"] 1762392870.67216 "/home/ocxpke/universidad/curso25-26/ADAplicaciones/trabajoIndividualAdap/practica1/P1_RamirezGiron_Jose_v1.tex" "P1_RamirezGiron_Jose_v1.pdf" "P1_RamirezGiron_Jose_v1" 1762392871.025 0
+  "/home/ocxpke/universidad/curso25-26/ADAplicaciones/trabajoIndividualAdap/practica1/P1_RamirezGiron_Jose_v1.tex" 1762392869.36079 8405 2681f735251342adc9a3afa408e1e847 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1755987285 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1755987285 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1755987285 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -40,6 +40,7 @@
   "/usr/share/texmf-dist/tex/generic/bitset/bitset.sty" 1755987285 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
   "/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty" 1755987285 8371 9d55b8bd010bc717624922fb3477d92e ""
   "/usr/share/texmf-dist/tex/generic/iftex/iftex.sty" 1755987285 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
+  "/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty" 1755987285 1057 525c2192b5febbd8c1f662c9468335bb ""
   "/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1755987285 8356 7bbb2c2373aa810be568c29e333da8ed ""
   "/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty" 1755987285 31769 002a487f55041f8e805cfbf6385ffd97 ""
   "/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty" 1755987285 5412 d5a2436094cd7be85769db90f29250a6 ""
@@ -57,6 +58,7 @@
   "/usr/share/texmf-dist/tex/latex/base/size11.clo" 1755987285 8464 e73911cdcc738e82d6adccd28e654bb1 ""
   "/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1755987285 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1755987285 46850 d87daedc2abdc653769a6f1067849fe0 ""
+  "/usr/share/texmf-dist/tex/latex/geometry/geometry.sty" 1755987285 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1755987285 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1755987285 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def" 1755987285 19440 9da9dcbb27470349a580fca7372d454b ""
@@ -82,10 +84,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1760038972 5306927 4623417b69c2f30a5e3f41e4b99533a5 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1760093753 2081303 b0d4abb085afb1c2d012f787df36416e ""
-  "P1_RamirezGiron_Jose_v1.aux" 1760639379.49958 1328 025dc5da828eaf49b8bcb260b2789757 "pdflatex"
-  "P1_RamirezGiron_Jose_v1.out" 1760639379.50258 1266 5f9e944c18c95d4a33b6be0c7fd5f9ab "pdflatex"
-  "P1_RamirezGiron_Jose_v1.tex" 1760639378.82535 4196 7a649cc5671b040e079b1ae0dbeb9814 ""
-  "P1_RamirezGiron_Jose_v1.toc" 1760639379.50258 668 fe38bd8561f2d6fd9184c8b58780df99 "pdflatex"
+  "P1_RamirezGiron_Jose_v1.aux" 1762392870.97677 1328 69e849fd341c1a1c2179de5f46ed8d7f "pdflatex"
+  "P1_RamirezGiron_Jose_v1.out" 1762392870.97777 1266 5f9e944c18c95d4a33b6be0c7fd5f9ab "pdflatex"
+  "P1_RamirezGiron_Jose_v1.tex" 1762392869.36079 8405 2681f735251342adc9a3afa408e1e847 ""
+  "P1_RamirezGiron_Jose_v1.toc" 1762392870.97777 668 e634a6477d40661d75b31333deec4b86 "pdflatex"
   (generated)
   "P1_RamirezGiron_Jose_v1.aux"
   "P1_RamirezGiron_Jose_v1.log"
